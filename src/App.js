@@ -1,4 +1,6 @@
 import React from 'react';
+
+import Ball from './Ball/Ball'
 import './App.css';
 
 function App() {
@@ -6,16 +8,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>
-         This is a test of Netlify.
+         Hello world!
         </h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Ball />
       </header>
     </div>
   );
